@@ -1,0 +1,5 @@
+There are several systems developed today to handle the problem of storing large amounts of data. But for each type of data and set of operations different systems differ in suitability. Burt AB stores a large dataset, enlarged in batches in a regular and controlled way, but never updated. Query times are critical and must have real-time performance.
+
+This thesis describes a systematic exploration and testing of possible solutions, with the goal of recommending one of these for Burt AB. Inherent properties of the dataset itself are investigated and a set of very different database management systems are combined with a set of database schemas in order to form a total of eleven potential solutions of interest.
+
+We show that the relational model suits the data well and that the maturity of MySQL gives us confidence when recommending it compared to the more recently developed systems. Furthermore, indexing using an inverted index is found to yield the best results.
